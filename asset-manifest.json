@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/ghpages-deployment/static/js/main.095f3aa7.chunk.js",
-    "main.js.map": "/ghpages-deployment/static/js/main.095f3aa7.chunk.js.map",
-    "runtime-main.js": "/ghpages-deployment/static/js/runtime-main.15daa670.js",
-    "runtime-main.js.map": "/ghpages-deployment/static/js/runtime-main.15daa670.js.map",
-    "static/js/2.f5a3dae3.chunk.js": "/ghpages-deployment/static/js/2.f5a3dae3.chunk.js",
-    "static/js/2.f5a3dae3.chunk.js.map": "/ghpages-deployment/static/js/2.f5a3dae3.chunk.js.map",
-    "index.html": "/ghpages-deployment/index.html",
-    "static/js/2.f5a3dae3.chunk.js.LICENSE.txt": "/ghpages-deployment/static/js/2.f5a3dae3.chunk.js.LICENSE.txt"
+    "main.js": "/goit-react-hw-01-components%20/static/js/main.095f3aa7.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components%20/static/js/main.095f3aa7.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components%20/static/js/runtime-main.234d0241.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components%20/static/js/runtime-main.234d0241.js.map",
+    "static/js/2.f5a3dae3.chunk.js": "/goit-react-hw-01-components%20/static/js/2.f5a3dae3.chunk.js",
+    "static/js/2.f5a3dae3.chunk.js.map": "/goit-react-hw-01-components%20/static/js/2.f5a3dae3.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components%20/index.html",
+    "static/js/2.f5a3dae3.chunk.js.LICENSE.txt": "/goit-react-hw-01-components%20/static/js/2.f5a3dae3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.15daa670.js",
+    "static/js/runtime-main.234d0241.js",
     "static/js/2.f5a3dae3.chunk.js",
     "static/js/main.095f3aa7.chunk.js"
   ]
