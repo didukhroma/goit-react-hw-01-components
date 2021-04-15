@@ -36,13 +36,15 @@ const Profile = ({ data: {
     </div>
 );
 Profile.propTypes = {
-    name: PropTypes.string,
-    tag: PropTypes.string,
-    location: PropTypes.string,
-    avatar: PropTypes.string,
-    followers: PropTypes.number,
-    views: PropTypes.number,
-    likes: PropTypes.number,
-};
+    data: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        tag: PropTypes.string.isRequired,
+        location: PropTypes.string,
+        avatar: PropTypes.string.isRequired,
+        followers: PropTypes.number,
+        views: PropTypes.number,
+        likes: PropTypes.number,
+    })
+}
 
 export default Profile;
