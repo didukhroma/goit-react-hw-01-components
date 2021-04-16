@@ -2,10 +2,9 @@ import { createUseStyles } from 'react-jss';
 import randomColor from '../randomColor';
 import PropTypes from "prop-types";
 
-const StatListItem = ( { data: { label, percentage },  quantity }) => {
-    const useStyles = createUseStyles({
+   const useStyles = createUseStyles({
         item: {
-            width: `calc(100% / ${quantity})`,
+            width: (quantity)=>`calc(100% / ${quantity})`,
             height: 50,
             backgroundColor: () => randomColor(),
         },
@@ -19,7 +18,9 @@ const StatListItem = ( { data: { label, percentage },  quantity }) => {
         }
  
     })
-    const classes = useStyles();
+
+const StatListItem = ( { data: { label, percentage },  quantity }) => { 
+    const classes = useStyles(quantity);
  return   (
     <li className={classes.item}>
         <span className={classes.label}>{label}</span>
