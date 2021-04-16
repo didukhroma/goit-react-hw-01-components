@@ -1,7 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import randomColor from '../randomColor';
-
-//
+import PropTypes from "prop-types";
 
 const StatListItem = ( { data: { label, percentage },  quantity }) => {
     const useStyles = createUseStyles({
@@ -28,5 +27,12 @@ const StatListItem = ( { data: { label, percentage },  quantity }) => {
     </li>
 )
 };
+StatListItem.propTypes = {
+    data: PropTypes.shape({
+        label: PropTypes.string,
+        percentage: PropTypes.number,
+    }),
+    quantity:PropTypes.number.isRequired
+}
 
 export default StatListItem;

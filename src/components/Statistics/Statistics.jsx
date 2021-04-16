@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import StatListItem from './StatListItem'
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
 const useStyles = createUseStyles({
     statistics: {
@@ -39,4 +39,10 @@ const Statistics = ({ title, stats }) => {
         </section>
     )
 }
+
+Statistics.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.array.isRequired,
+}
+
 export default Statistics;
