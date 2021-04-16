@@ -1,0 +1,19 @@
+.transactions {
+  margin: 0;
+  padding: 50px 20px;
+}
+.title {
+  text-align: center;
+}
+.table {
+  border: 1px solid #ccc;
+  border-spacing: 3px;
+  border-collapse: separate;
+  table-layout: fixed;
+  width: 350px;
+  margin: 0 auto;
+}
+.table__header {
+  border: 1px solid #ccc;
+  height: 30px;
+}
