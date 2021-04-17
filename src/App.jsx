@@ -20,10 +20,10 @@ const App = () =>{
     <Container>
       {/* CSS MODULE */}
       <Profile data={profileData} />
-      {/* JSS  */}
+      {/*  CSS MODULE + STYLED COMPONENTS */}
       <Statistics title="Upload stats" stats={statisticalData} /> 
       <Statistics stats={statisticalData} />
-      {/* JSS  */}
+      {/* SASS MODULE  */}
       <FriendList friends={friends} />
       {/* SASS MODULE */}
       <TransactionHistory items={transactions} />

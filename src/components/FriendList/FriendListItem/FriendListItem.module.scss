@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 10px;
+  &__active {
+    @extend .status;
+    background-color: green;
+  }
+}
+
+.avatar {
+  margin-right: 10px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
